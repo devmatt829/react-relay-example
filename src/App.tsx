@@ -12,7 +12,6 @@ import './App.css';
 const App = () => (
   <RelayEnvironmentProvider environment={environment}>
     <BrowserRouter>
-      <>
         <Menu />
         <ForkMe />
         <main role="main" className="flex-shrink-0 main-container" style={{ marginTop: 25, marginBottom: 25 }}>
@@ -22,7 +21,6 @@ const App = () => (
           </Routes>
         </main>
         <Footer />
-      </>
       </BrowserRouter>
   </RelayEnvironmentProvider>
 );
